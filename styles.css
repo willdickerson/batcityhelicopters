@@ -1111,6 +1111,71 @@ button {
     font-size: 13px;
 }
 
+.footer-legal {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.footer-legal a {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 12px;
+    transition: color var(--transition-fast);
+}
+
+.footer-legal a:hover {
+    color: var(--color-accent);
+}
+
+/* Legal Pages */
+.legal-page {
+    padding: 140px 0 80px;
+    min-height: 100vh;
+    background: var(--color-gray-100);
+}
+
+.legal-page h1 {
+    font-family: var(--font-display);
+    font-size: 48px;
+    color: var(--color-dark);
+    margin-bottom: 8px;
+}
+
+.legal-page .last-updated {
+    color: var(--color-gray-600);
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.legal-page h2 {
+    font-family: var(--font-display);
+    font-size: 24px;
+    color: var(--color-dark);
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+.legal-page p,
+.legal-page li {
+    color: var(--color-gray-800);
+    line-height: 1.8;
+    margin-bottom: 16px;
+}
+
+.legal-page ul {
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+
+.legal-page a {
+    color: var(--color-primary);
+}
+
+.legal-page a:hover {
+    text-decoration: underline;
+}
+
 /* ===================================
    RESPONSIVE DESIGN
    =================================== */
