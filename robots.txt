@@ -1,0 +1,7 @@
+# Bat City Helicopters - robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://batcityhelicopters.com/sitemap.xml
+
