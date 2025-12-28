@@ -98,6 +98,11 @@ button {
     padding: 12px 0;
 }
 
+.nav.nav-solid {
+    background: var(--color-dark);
+    padding: 12px 0;
+}
+
 .nav-container {
     max-width: var(--container-width);
     margin: 0 auto;
