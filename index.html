@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bat City Helicopters | Austin's Premier Helicopter Tours</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-bat">BAT CITY</span>
+                <span class="logo-heli">HELICOPTERS</span>
+            </a>
+            <div class="nav-links">
+                <a href="#tours">Tours</a>
+                <a href="#aircraft">Aircraft</a>
+                <a href="#about">About</a>
+                <a href="#testimonials">Reviews</a>
+                <a href="#contact" class="nav-cta">Book Now</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg">
+            <img src="assets/helicopters-over-hill-country.png" alt="Helicopter flying over Texas Hill Country">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="hero-title-line">EXPERIENCE AUSTIN</span>
+                <span class="hero-title-line accent">FROM ABOVE</span>
+            </h1>
+            <p class="hero-subtitle">Unforgettable helicopter tours over the Texas Hill Country and Austin skyline</p>
+            <div class="hero-cta">
+                <a href="#tours" class="btn btn-primary">Explore Tours</a>
+                <a href="#contact" class="btn btn-secondary">Book Your Flight</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll to explore</span>
+            <div class="scroll-indicator"></div>
+        </div>
+    </header>
+
+    <!-- Stats Bar -->
+    <section class="stats-bar">
+        <div class="container">
+            <div class="stat">
+                <span class="stat-number">25+</span>
+                <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">2</span>
+                <span class="stat-label">Aircraft in Fleet</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">1000+</span>
+                <span class="stat-label">Happy Passengers</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Safety Record</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tours Section -->
+    <section id="tours" class="tours">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Helicopter Tours</span>
+                <h2 class="section-title">See Texas Like Never Before</h2>
+                <p class="section-desc">From the rolling hills of wine country to the glittering Austin skyline, experience the Lone Star State from a whole new perspective.</p>
+            </div>
+
+            <!-- Hill Country Picnic Tour -->
+            <div class="tour-card tour-featured">
+                <div class="tour-gallery">
+                    <div class="tour-gallery-main">
+                        <img src="assets/hill-country-picnic-heli-tour.png" alt="Hill Country Picnic Helicopter Tour" id="gallery-main">
+                    </div>
+                    <div class="tour-gallery-thumbs">
+                        <button class="thumb active" data-img="assets/hill-country-picnic-heli-tour.png">
+                            <img src="assets/hill-country-picnic-heli-tour.png" alt="Tour view 1">
+                        </button>
+                        <button class="thumb" data-img="assets/hill-country-picnic-heli-tour-2.png">
+                            <img src="assets/hill-country-picnic-heli-tour-2.png" alt="Tour view 2">
+                        </button>
+                        <button class="thumb" data-img="assets/hill-country-picnic-heli-tour-3.png">
+                            <img src="assets/hill-country-picnic-heli-tour-3.png" alt="Tour view 3">
+                        </button>
+                        <button class="thumb" data-img="assets/hill-country-picnic-heli-tour-with-buck.png">
+                            <img src="assets/hill-country-picnic-heli-tour-with-buck.png" alt="Tour with Buck">
+                        </button>
+                    </div>
+                </div>
+                <div class="tour-info">
+                    <span class="tour-badge">Most Popular</span>
+                    <h3 class="tour-title">Hill Country Picnic Tour</h3>
+                    <p class="tour-desc">Soar over the breathtaking Texas Hill Country, taking in panoramic views of rolling vineyards, winding rivers, and endless wildflower meadows. This signature experience captures the heart of Central Texas from an unforgettable vantage point.</p>
+                    <div class="tour-details">
+                        <div class="tour-detail">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M12 6v6l4 2"></path>
+                            </svg>
+                            <span>45 minutes</span>
+                        </div>
+                        <div class="tour-detail">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                            <span>Private & Exclusive</span>
+                        </div>
+                    </div>
+                    
+                    <div class="tour-pricing">
+                        <h4>Choose Your Aircraft</h4>
+                        <div class="pricing-options">
+                            <div class="pricing-option">
+                                <div class="pricing-header">
+                                    <span class="aircraft-name">Robinson R44 II</span>
+                                    <span class="price-from">from <strong>$325</strong></span>
+                                </div>
+                                <div class="pricing-details">
+                                    <span>Up to 3 passengers</span>
+                                    <span class="price-per">Only $108/person when 3 fly together</span>
+                                </div>
+                            </div>
+                            <div class="pricing-option featured">
+                                <div class="pricing-header">
+                                    <span class="aircraft-name">Airbus AS350B3e</span>
+                                    <span class="price-from">from <strong>$800</strong></span>
+                                </div>
+                                <div class="pricing-details">
+                                    <span>Up to 5 passengers</span>
+                                    <span class="price-per">Only $160/person when 5 fly together</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary btn-full">Book This Tour</a>
+                </div>
+            </div>
+
+            <!-- Austin Skyline Tour -->
+            <div class="tour-card tour-featured tour-reverse">
+                <div class="tour-gallery">
+                    <div class="tour-gallery-main">
+                        <img src="assets/austin-city-skyline-tour.png" alt="Austin Skyline Helicopter Tour" id="gallery-main-skyline">
+                    </div>
+                    <div class="tour-gallery-thumbs tour-gallery-thumbs-2">
+                        <button class="thumb active" data-img="assets/austin-city-skyline-tour.png" data-gallery="skyline">
+                            <img src="assets/austin-city-skyline-tour.png" alt="Austin skyline aerial view">
+                        </button>
+                        <button class="thumb" data-img="assets/austin-skyline-from-cockpit.png" data-gallery="skyline">
+                            <img src="assets/austin-skyline-from-cockpit.png" alt="Austin skyline from cockpit">
+                        </button>
+                    </div>
+                </div>
+                <div class="tour-info">
+                    <span class="tour-badge secondary">City Adventure</span>
+                    <h3 class="tour-title">Austin Skyline Tour</h3>
+                    <p class="tour-desc">Circle the iconic Austin skyline at golden hour. See the Congress Avenue Bridge (home to 1.5 million Mexican free-tailed bats!), the State Capitol, Lady Bird Lake, and the stunning downtown architecture from an exclusive aerial perspective.</p>
+                    <div class="tour-details">
+                        <div class="tour-detail">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M12 6v6l4 2"></path>
+                            </svg>
+                            <span>25 minutes</span>
+                        </div>
+                        <div class="tour-detail">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                            <span>Private & Exclusive</span>
+                        </div>
+                    </div>
+                    
+                    <div class="tour-pricing">
+                        <h4>Choose Your Aircraft</h4>
+                        <div class="pricing-options">
+                            <div class="pricing-option">
+                                <div class="pricing-header">
+                                    <span class="aircraft-name">Robinson R44 II</span>
+                                    <span class="price-from">from <strong>$225</strong></span>
+                                </div>
+                                <div class="pricing-details">
+                                    <span>Up to 3 passengers</span>
+                                    <span class="price-per">Only $75/person when 3 fly together</span>
+                                </div>
+                            </div>
+                            <div class="pricing-option">
+                                <div class="pricing-header">
+                                    <span class="aircraft-name">Airbus AS350B3e</span>
+                                    <span class="price-from">from <strong>$550</strong></span>
+                                </div>
+                                <div class="pricing-details">
+                                    <span>Up to 5 passengers</span>
+                                    <span class="price-per">Only $110/person when 5 fly together</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary btn-full">Book This Tour</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aircraft Section -->
+    <section id="aircraft" class="aircraft">
+        <div class="container">
+            <div class="section-header light">
+                <span class="section-tag">Our Fleet</span>
+                <h2 class="section-title">World-Class Aircraft</h2>
+                <p class="section-desc">Safety and performance are our top priorities. Our meticulously maintained fleet represents the best in modern rotorcraft engineering.</p>
+            </div>
+
+            <div class="aircraft-grid">
+                <div class="aircraft-card">
+                    <div class="aircraft-image">
+                        <img src="assets/Airbus-AS350B3e-helicopter.png" alt="Airbus AS350B3e BLR Helicopter">
+                    </div>
+                    <div class="aircraft-info">
+                        <h3>Airbus AS350B3e BLR</h3>
+                        <span class="aircraft-subtitle">High-Performance Single Engine</span>
+                        <p>The pinnacle of the Ecureuil family, this aircraft broke the world record for highest altitude landing and takeoff. It excels in hot, high, and extreme environments—perfect for Texas summers.</p>
+                        <ul class="aircraft-specs">
+                            <li>
+                                <strong>Capacity</strong>
+                                <span>5 passengers</span>
+                            </li>
+                            <li>
+                                <strong>Safety</strong>
+                                <span>Dual-channel FADEC system</span>
+                            </li>
+                            <li>
+                                <strong>Performance</strong>
+                                <span>World-record altitude capability</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="aircraft-card">
+                    <div class="aircraft-image">
+                        <img src="assets/Robinson-RH44II-helicopter.png" alt="Robinson R44 Raven II Helicopter">
+                    </div>
+                    <div class="aircraft-info">
+                        <h3>Robinson R44 Raven II</h3>
+                        <span class="aircraft-subtitle">Reliable & Nimble</span>
+                        <p>A high-performing helicopter known for reliability and ease of maintenance. Features a two-bladed rotor system, T-bar cyclic, and a 1+3 cabin configuration with unobstructed views from every seat.</p>
+                        <ul class="aircraft-specs">
+                            <li>
+                                <strong>Capacity</strong>
+                                <span>3 passengers</span>
+                            </li>
+                            <li>
+                                <strong>Visibility</strong>
+                                <span>Panoramic views all seats</span>
+                            </li>
+                            <li>
+                                <strong>Efficiency</strong>
+                                <span>Optimized fuel economy</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="assets/buck-griswold-cockpit-shot.PNG" alt="Buck Griswold in helicopter cockpit">
+                    <div class="about-image-caption">Buck Griswold, Owner & Chief Pilot</div>
+                </div>
+                <div class="about-text">
+                    <span class="section-tag">Meet Your Pilot</span>
+                    <h2 class="section-title">Buck Griswold</h2>
+                    <blockquote class="about-quote">
+                        "I'm Buck Griswold, owner and operator of Bat City Helicopters. Twenty-five years in aviation taught me two things: fly safe and fly steady. I'll handle the hard part while you enjoy a little slice of pie in the sky."
+                    </blockquote>
+                    <p class="about-disclaimer">*"Pie in the sky" is a figure of speech used for promotional purposes only. Bat City Helicopters does not provide actual pie, baked goods, or food of any kind during flights.</p>
+                    <div class="about-credentials">
+                        <div class="credential">
+                            <span class="credential-number">25+</span>
+                            <span class="credential-label">Years Flying</span>
+                        </div>
+                        <div class="credential">
+                            <span class="credential-number">10,000+</span>
+                            <span class="credential-label">Flight Hours</span>
+                        </div>
+                        <div class="credential">
+                            <span class="credential-number">FAA</span>
+                            <span class="credential-label">Certified</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Reviews</span>
+                <h2 class="section-title">What Our Passengers Say</h2>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"An absolutely incredible experience! Buck made us feel completely safe while giving us the most amazing views of the Hill Country. Worth every penny!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SM</div>
+                        <div class="author-info">
+                            <span class="author-name">Sarah M.</span>
+                            <span class="author-tour">Hill Country Picnic Tour</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Booked the Austin Skyline tour for my wife's birthday—she was blown away. Seeing the bats from above at sunset was magical. Highly recommend!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JR</div>
+                        <div class="author-info">
+                            <span class="author-name">James R.</span>
+                            <span class="author-tour">Austin Skyline Tour</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Professional, knowledgeable, and genuinely passionate about aviation. Buck's commentary made the flight even more special. Can't wait to go again!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">KL</div>
+                        <div class="author-info">
+                            <span class="author-name">Karen L.</span>
+                            <span class="author-tour">Hill Country Picnic Tour</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <span class="section-tag">Book Your Flight</span>
+                    <h2 class="section-title">Ready for Takeoff?</h2>
+                    <p>Experience Austin and the Texas Hill Country from a whole new perspective. Contact us to book your helicopter tour or inquire about private charters and special occasions.</p>
+                    <div class="contact-details">
+                        <a href="mailto:info@batcityhelicopters.com" class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <span>info@batcityhelicopters.com</span>
+                        </a>
+                        <div class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <span>Austin, Texas</span>
+                        </div>
+                    </div>
+                    <a href="mailto:info@batcityhelicopters.com?subject=Helicopter%20Tour%20Booking%20Inquiry" class="btn btn-primary btn-large">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        Send Booking Inquiry
+                    </a>
+                </div>
+                <div class="contact-image">
+                    <img src="assets/hill-country-picnic-heli-tour-with-buck.png" alt="Helicopter tour experience">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-bat">BAT CITY</span>
+                    <span class="logo-heli">HELICOPTERS</span>
+                    <p>Austin's premier helicopter tour experience. Fly safe. Fly steady.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#tours">Tours</a>
+                    <a href="#aircraft">Aircraft</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Bat City Helicopters. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
