@@ -636,16 +636,6 @@ button {
     border-radius: 8px;
     padding: 16px;
     border: 2px solid var(--color-gray-200);
-    transition: all var(--transition-fast);
-}
-
-.pricing-option:hover,
-.pricing-option.featured {
-    border-color: var(--color-primary);
-}
-
-.pricing-option.featured {
-    background: linear-gradient(135deg, rgba(212, 98, 42, 0.05) 0%, rgba(244, 169, 50, 0.05) 100%);
 }
 
 .pricing-header {

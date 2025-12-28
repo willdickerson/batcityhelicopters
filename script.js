@@ -183,13 +183,5 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Add subtle hover effect to pricing options
-    const pricingOptions = document.querySelectorAll('.pricing-option');
-    pricingOptions.forEach(option => {
-        option.addEventListener('mouseenter', function() {
-            pricingOptions.forEach(o => o.classList.remove('featured'));
-            this.classList.add('featured');
-        });
-    });
 });
 
