@@ -169,6 +169,26 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Film player
+    const filmFrame = document.querySelector('.film-frame');
+    
+    if (filmFrame) {
+        const filmVideo = filmFrame.querySelector('.film-video');
+        const filmPlay = filmFrame.querySelector('.film-play');
+        
+        filmPlay.addEventListener('click', () => {
+            filmVideo.controls = true;
+            filmVideo.play();
+        });
+        
+        filmVideo.addEventListener('play', () => filmFrame.classList.add('playing'));
+        filmVideo.addEventListener('ended', () => {
+            filmVideo.controls = false;
+            filmVideo.load();
+            filmFrame.classList.remove('playing');
+        });
+    }
+
     // Parallax effect for hero
     const heroBackground = document.querySelector('.hero-bg img');
     
