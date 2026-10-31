@@ -103,6 +103,7 @@
                 <span class="logo-heli">HELICOPTERS</span>
             </a>
             <div class="nav-links">
+                <a href="#watch">Watch</a>
                 <a href="#tours">Tours</a>
                 <a href="#aircraft">Aircraft</a>
                 <a href="#about">About</a>
@@ -131,7 +132,12 @@
             <p class="hero-subtitle">Unforgettable helicopter tours over the Texas Hill Country and Austin skyline</p>
             <div class="hero-cta">
                 <a href="#tours" class="btn btn-primary">Explore Tours</a>
-                <a href="#contact" class="btn btn-secondary">Book Your Flight</a>
+                <a href="#watch" class="btn btn-secondary">
+                    <svg viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                        <path d="M8 5v14l11-7z"></path>
+                    </svg>
+                    Watch the Video
+                </a>
             </div>
         </div>
         <div class="hero-scroll">
@@ -158,6 +164,32 @@
             <div class="stat">
                 <span class="stat-number">100%</span>
                 <span class="stat-label">Safety Record</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="watch" class="film">
+        <div class="container">
+            <div class="film-frame">
+                <video class="film-video" preload="none" playsinline
+                       poster="assets/video/batcity-the-hard-part-poster.jpg"
+                       aria-label="Bat City Helicopters commercial: We Handle the Hard Part">
+                    <source src="assets/video/batcity-the-hard-part.mp4" type="video/mp4">
+                </video>
+                <button class="film-play" aria-label="Play the video">
+                    <span class="film-play-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M8 5v14l11-7z"></path>
+                        </svg>
+                    </span>
+                    <span class="film-play-label">Play Video <em>1:00</em></span>
+                </button>
+            </div>
+
+            <div class="film-footer">
+                <p>Hill Country Picnic Tours &middot; Austin Skyline Tours</p>
+                <a href="#contact" class="btn btn-primary">Book Your Flight</a>
             </div>
         </div>
     </section>
